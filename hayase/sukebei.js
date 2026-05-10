@@ -1,5 +1,5 @@
 export default new class Sukebei {
-  base = 'https://nyaa-proxy-abc123.vercel.app/api/sukebei/'
+  base = 'https://nyaa-proxy-psi.vercel.app/api/sukebei/'
   async single({ titles, episode }) {
     if (!titles?.length) return []
     return this.search(titles[0], episode)
