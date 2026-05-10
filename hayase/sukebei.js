@@ -26,7 +26,7 @@ export default new class Sukebei {
       size: 0,
       date: new Date(item.DateUploaded),
       accuracy: 'medium',
-      type: 'alt'
+      type: 'main'
     }))
   }
 
