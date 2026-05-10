@@ -1,5 +1,5 @@
 export default new class Nyaa {
-  base = 'https://nyaa-proxy-abc123.vercel.app/api/nyaasi/'
+  base = 'https://nyaa-proxy-psi.vercel.app/api/nyaasi/'
 
   async single({ titles, episode }) {
     if (!titles?.length) return []
