@@ -24,10 +24,10 @@ export default new class Nyaa {
       seeders: Number(item.Seeders || 0),
       leechers: Number(item.Leechers || 0),
       downloads: Number(item.Downloads || 0),
-      size: 0,
+      size: Number(item.Size) || 0,
       date: new Date(item.DateUploaded),
       accuracy: 'medium',
-      type: 'alt'
+      type: 'main'
     }))
   }
 
